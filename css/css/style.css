@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "copper";
+  src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+}
+@font-face {
+  font-family: "geo";
+  src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
+}
+#header {
+  height: 10vh;
+}
+
+nav {
+  background-color: #bacbcd;
+}
+
+.nav-link {
+  color: #a37c56 !important;
+  font-family: geo;
+  font-size: 16px !important;
+  font-weight: 600;
+  border: 2px solid #634b33;
+  border-radius: 8px;
+  margin-right: 5px;
+  padding: 2px;
+  background-color: #ecfeff;
+}
+
+a:hover {
+  scale: 1.1;
+  color: #0c0701 !important;
+}
+
+a:active {
+  color: #a37c56 !important;
+}
+
+#navActive {
+  color: #0c0c0c !important;
+}
+
+.logo {
+  width: 5vw;
+  height: 11vh;
+  margin-right: 900px;
+}
+
+#fotoBelu {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 10px;
+}
+
+#cajaUno {
+  width: 700px;
+  height: 350px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d2f09c), color-stop(#a0bd6d), to(#708d40));
+  background-image: linear-gradient(to right, #d2f09c, #a0bd6d, #708d40);
+  border-style: dotted;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: #4a5e2a;
+  margin-top: 140px;
+}
+
+.parrafo {
+  line-height: 20px;
+  font-family: geo;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.titulo, .tituloVideo {
+  font-family: copper;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  padding: 10px;
+}
+
+.tituloVideo {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.btn {
+  color: #3a4922;
+  font-family: geo;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #708d40;
+  border-radius: 8px;
+  margin-left: 50%;
+  padding: 5px;
+  background-color: #dbecbc;
+}
+
+.boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cajaVideo {
+  margin-top: 40px;
+}
+
+.cajaTextoVideo {
+  width: 250px;
+  height: 580px;
+  border: 10px solid #ffd77d;
+  background-color: #ffffae;
+  border-radius: 40px;
+  margin-right: 8px;
+}
+
+.textoVideo {
+  font-family: geo;
+  line-height: 20px;
+  padding: 20px;
+  font-size: 30x;
+  text-align: center;
+}
+
+.tituloVideo {
+  font-family: copper;
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.animate__bounceIn {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.animate__rotateIn {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#footer {
+  height: 10vh;
+  background-color: #869294;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 160vh;
+}
+
+@font-face {
+  font-family: "copper";
+  src: url(/assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+}
+@font-face {
+  font-family: "geo";
+  src: url(/assets/fonts/geo_sans_light/GeosansLight.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "copper";
+  src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+}
+@font-face {
+  font-family: "geo";
+  src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "copper";
+    src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+  }
+  @font-face {
+    font-family: "geo";
+    src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
+  }
+
+#header {
+    height: 10vh;
+}
+
+nav {
+background-color: map-get($colores,"nav");
+}
+
+.nav-link {
+    color: map-get($colores,"link") !important;
+    font-family: geo;
+  font-size: $texto !important;
+  font-weight: 600;
+  border: 2px solid map-get($colores,"border");
+    border-radius: 8px;
+    margin-right: 5px;
+    padding: 2px;
+    background-color: map-get($colores,"background");
+}
+
+a:hover {
+    scale:1.1;
+    color: #0c0701 !important;
+}
+
+a:active {
+    color: map-get($colores,"link") !important;
+}
+
+#navActive {
+    color: #0c0c0c !important;
+}
+.logo {
+    width: 5vw;
+    height: 11vh;
+    margin-right: 900px;
+}
+
