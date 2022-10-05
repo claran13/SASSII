@@ -2,3 +2,14 @@
     height: 10vh;
     background-color: map-get($colores,"footer");
 }
+
+.foot {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: $texto;
+    font-weight: 600;
+}
+
+.ig {
+    @include sizes(50px, 50px);
+    
+}

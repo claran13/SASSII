@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "copper";
-  src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
-}
-@font-face {
-  font-family: "geo";
-  src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
-}
 #header {
   height: 10vh;
 }
@@ -16,7 +8,7 @@ nav {
 
 .nav-link {
   color: #a37c56 !important;
-  font-family: geo;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px !important;
   font-weight: 600;
   border: 2px solid #634b33;
@@ -42,7 +34,12 @@ a:active {
 .logo {
   width: 5vw;
   height: 11vh;
-  margin-right: 900px;
+  margin-right: 850px;
+}
+
+#main {
+  height: 160vh;
+  background-color: #ecfeff;
 }
 
 #fotoBelu {
@@ -64,45 +61,36 @@ a:active {
   margin-top: 140px;
 }
 
-.parrafo {
-  line-height: 20px;
-  font-family: geo;
-  font-size: 20px;
+.parrafo, .parrafoTest, .parrafoTaller, .parrafoPerfil {
+  line-height: 26px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
   padding-right: 10px;
 }
 
-.titulo, .tituloVideo {
-  font-family: copper;
-  font-size: 20px;
+.titulo, .tituloTaller, .tituloPerfil, .tituloVideo {
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
   font-weight: 200;
   text-align: center;
   padding: 10px;
 }
 
 .tituloVideo {
-  font-size: 15px;
-  padding-top: 20px;
+  font-size: 26px;
 }
 
 .btn {
   color: #3a4922;
-  font-family: geo;
-  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
   font-weight: 600;
   border: 2px solid #708d40;
   border-radius: 8px;
   margin-left: 50%;
+  margin-top: -30px;
   padding: 5px;
   background-color: #dbecbc;
-}
-
-.boton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .cajaVideo {
@@ -119,18 +107,10 @@ a:active {
 }
 
 .textoVideo {
-  font-family: geo;
-  line-height: 20px;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 24px;
   padding: 20px;
-  font-size: 30x;
-  text-align: center;
-}
-
-.tituloVideo {
-  font-family: copper;
-  font-size: 15px;
-  font-weight: 200;
-  padding-top: 20px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -144,9 +124,121 @@ a:active {
           animation-duration: 2s;
 }
 
+fieldset {
+  line-height: 30px;
+  text-align: center;
+  background-color: #5d6c6d;
+  width: 600px;
+  padding: 50px;
+}
+
+#botonDos {
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-right: 70%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#botonDos:hover {
+  scale: 1.1;
+  color: #0c0701 !important;
+}
+
+.fotoBeluDos {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.cajaPerfil {
+  width: 500px;
+  height: 700px;
+  background-color: #ffffe5;
+  border-radius: 50px;
+  border: 20px solid #a37c56;
+}
+
+.tituloPerfil {
+  font-weight: 700;
+  padding: 30px;
+}
+
+.parrafoPerfil {
+  padding: 40px;
+  text-align: center;
+}
+
+#tallerUno, #tallerDos {
+  background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+#tallerDos {
+  background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+}
+
+.cajaTaller {
+  height: 300px;
+  width: 550px;
+  background-color: #d2f09c;
+  border-radius: 20px;
+  border-style: double;
+  border-color: #708d40;
+  margin: 20px;
+}
+
+.tituloTaller {
+  padding-top: 40px;
+}
+
+.parrafoTaller {
+  text-align: center;
+}
+
+.fotoTestUno {
+  width: 350px;
+  height: 350px;
+}
+
+.fotoTestDos {
+  width: 330px;
+  height: 330px;
+  margin-top: 25px;
+}
+
+.cajaParrafoTest {
+  width: 600px;
+  height: 250px;
+  border: 10px solid #a37c56;
+  margin-top: 50px;
+}
+
+.parrafoTest {
+  text-align: center;
+  padding: 30px;
+}
+
 #footer {
   height: 10vh;
   background-color: #869294;
+}
+
+.foot {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ig {
+  width: 50px;
+  height: 50px;
 }
 
 * {
@@ -161,26 +253,403 @@ body {
   height: 160vh;
 }
 
-@font-face {
-  font-family: "copper";
-  src: url(/assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+    .nav-link {   
+      font-size: 10px !important;
+      padding: 10px !important;
+      
+    }
+    .logo {
+        width: 5vw;
+        height: 6vh;
+        margin-top: 10px;
+        margin-left: 10px;  
+    }
+    #cajaUno {
+      width:500px;     
+      height:200px;
+      margin-top: -50px;
+  }
+  
+  .parrafo {
+      line-height: 15px;
+      font-size: 10px;
+      padding-right: 10px;
+      
+  }
+  #fotoBelu {
+      width: 100px;
+      height: 100px;
+      float: left;
+      padding: 2px;
+  }
+  .titulo {
+      font-size: 15px;
+      padding: 5px;
+  }
+  
+  .btn {
+      color: #3a4922;
+      font-family: geo;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 2px solid #708d40;
+      border-radius: 8px;
+      margin-left: 50%;
+      margin-top: -20px;
+      padding: 2px;
+      background-color: #dbecbc;
+  
+  }
+  .video {
+      width: 300px;
+      height: 200px;
+      margin-top: 50px
+  }
+  
+.cajaTextoVideo {
+  width:500px;     
+  height:140px;
+  margin-top: -200px;
+  
 }
-@font-face {
-  font-family: "geo";
-  src: url(/assets/fonts/geo_sans_light/GeosansLight.ttf);
+.cajaVideo {
+  margin-top: 20px;
+  
 }
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.tituloVideo {
+  font-family: copper;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+.textoVideo {
+  
+  font-family: geo;
+  font-size: 11px;
+  margin-top: -15px;
+  line-height: 12px;
+  padding: 10px;   
+}
+#botonDos {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-right: 70%;
+}
+fieldset {
+  width: 400px;
+  height: 600px;
+}
+.fotoBeluDos {
+  width: 200px;
+  height: 250px;
+  margin-top: 80px;
+  
 }
 
-@font-face {
-  font-family: "copper";
-  src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
+.cajaPerfil {
+  width: 500px;
+  height: 250px;
+  background-color: #ffffe5;
+border-radius: 50px;
+border: 15px solid #a37c56;
+margin-top: -30px;
 }
-@font-face {
-  font-family: "geo";
-  src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
+
+.tituloPerfil {
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+padding: 30px;
+}
+
+.parrafoPerfil {
+  line-height: 15px;
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -50px;
+}
+#tallerUno {
+  background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  margin-top: 60px;
+}
+
+#tallerDos {
+  background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  margin-bottom: -70px;
+}
+
+.cajaTaller{
+  height: 190px;
+  width: 450px;
+  background-color: #d2f09c;
+  border-radius: 20px;
+  border-style: double;
+  border-color: #708d40;
+  margin-top: -10px;
+ 
+}
+
+.tituloTaller {
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+padding: 20px;
+}
+
+.parrafoTaller {
+  line-height: 15px;
+  padding: 12px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.fotoTestUno {
+width: 120px;
+height: 120px;
+margin-top: 60px;
+}
+
+.fotoTestDos {
+  width: 120px;
+  height: 120px;
+  margin-top: -40px;
+  }
+
+.cajaParrafoTest {
+width: 500px;
+height: 130px;
+border: 10px solid #a37c56;
+margin-top: 10px;
+
+}
+
+.parrafoTest {
+  line-height: 20px;
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+  }
+    
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .nav-link {   
+  font-size: 15px !important;
+  padding: 10px !important;
+  
+}
+.logo {
+    width: 5vw;
+    height: 8vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+#cajaUno {
+    width:600px;     
+    height:200px;
+    margin-top: 40px;
+}
+
+.parrafo {
+    line-height: 17px;
+    font-size: 12px;
+    padding-right: 10px;
+    
+}
+#fotoBelu {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 2px;
+}
+.titulo {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn {
+    color: #3a4922;
+    font-family: geo;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 2px solid #708d40;
+    border-radius: 8px;
+    margin-left: 50%;
+    margin-top: -55px;
+    padding: 2px;
+    background-color: #dbecbc;
+
+}
+.video {
+    width: 450px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.cajaTextoVideo {
+width:600px;     
+height:140px;
+margin-top: -70px;
+
+}
+
+.tituloVideo {
+
+font-size: 20px;
+font-weight: 200;
+text-align: center;
+}
+.textoVideo {
+
+font-size: 15px;
+margin-top: -15px;
+line-height: 12px;
+padding: 10px;
+
+}
+.cajaPerfil {
+width: 700px;
+height: 250px;
+background-color: #ffffe5;
+border-radius: 50px;
+border: 15px solid #a37c56;
+
+}
+.parrafoPerfil {
+margin-top: -40px;
+font-size: 15px;
+line-height: 20px;
+}
+.tituloPerfil {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  }
+  .fotoTestUno {
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    }
+    
+    .fotoTestDos {
+      width: 200px;
+      height: 200px;
+      margin-top: -40px;
+      }
+    
+    .cajaParrafoTest {
+    width: 600px;
+    height: 130px;
+    border: 10px solid #a37c56;
+    margin-top: 10px;
+    
+    }
+    
+    .parrafoTest {
+      line-height: 20px;
+      font-size: 15px;
+      text-align: center;
+      padding: 10px;
+    }
+    #tallerUno {
+      background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+      height: 150px;
+      width: 150px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px;
+      margin-top: 60px;
+    }
+    
+    #tallerDos {
+      background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px;
+      margin-bottom: -50px;
+    }
+    
+    .cajaTaller{
+      height: 150px;
+      width: 600px;
+      background-color: #d2f09c;
+      border-radius: 20px;
+      border-style: double;
+      border-color: #708d40;
+     
+    }
+    
+    .tituloTaller {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .parrafoTaller {
+      line-height: 15px;
+      padding: 12px;
+      text-align: center;
+      margin-top: -40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .logo {
+      margin-right: 550px;
+  }
+  .video {
+    width: 350px;
+    height: 250px;
+}
+  .cajaParrafoTest {
+  width: 400px;
+  height: 320px;
+  border: 10px solid #a37c56;
+  margin-top: 10px;
+  }
+
+  .cajaTaller{
+    height: 300px;
+    width: 480px;
+    background-color: #d2f09c;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #708d40;
+   
+  }
+}
+  @media only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+  .logo {
+    margin-right: 750px;
+}
+.cajaParrafoTest {
+  width: 390px;
+  height: 320px;
+  border: 10px solid #a37c56;
+  margin-top: 10px;
+  }
+
 }

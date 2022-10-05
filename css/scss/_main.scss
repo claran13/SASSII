@@ -1,3 +1,7 @@
+#main {
+    height: 160vh;
+    background-color:#ecfeff;
+}
 #fotoBelu {
     @include sizes(150px, 150px);
     float: left;
@@ -16,16 +20,16 @@
 }
 
 .parrafo {
-    line-height: $texto+4;
-    font-family: geo;
-    font-size: $texto+4;
+    line-height: $texto+10;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: $texto;
     padding-right: $texto - 6;
     
 }
 
 .titulo {
-    font-family: copper;
-    font-size: $texto+4;
+    font-family: 'Dancing Script', cursive;
+    font-size: $texto+20;
     font-weight: 200;
     text-align: center;
     padding: $texto - 6;
@@ -33,26 +37,23 @@
 
 .tituloVideo {
     @extend .titulo;
-    font-size: 15px;
-    padding-top: $texto+4;
+    font-size: $texto+10;
 }
+
 .btn {
     color:map-get($colores,"btn");
-    font-family: geo;
-  font-size: $texto+4;
-  font-weight: 600;
-  border: 2px solid map-get($colores,"btnBorder");
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: $texto;
+    font-weight: 600;
+    border: 2px solid map-get($colores,"btnBorder");
     border-radius: 8px;
     margin-left: 50%;
+    margin-top: -30px;
     padding: 5px;
     background-color: map-get($colores,"btnBack");
 
 }
 
-.boton{
-    display: flex;
-justify-content: center;
-}
 
 .cajaVideo {
   margin-top: ($texto+4)*2;
@@ -69,18 +70,10 @@ justify-content: center;
 
 .textoVideo {
     
-    font-family: geo;
-    line-height: $texto+4;
+    font-family: 'Inter Tight', sans-serif;
+    line-height: $texto+8;
     padding: $texto+4;
-    font-size: 30x;
-    text-align: center;
-}
-
-.tituloVideo {
-    font-family: copper;
-    font-size: 15px;
-    font-weight: 200;
-    padding-top: $texto+4;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -91,3 +84,124 @@ justify-content: center;
 .animate__rotateIn {
     animation-duration: 2s;
 }
+
+
+fieldset {
+    line-height: 30px;
+    text-align: center;
+    background-color:#5d6c6d;
+    width: 600px;
+    padding: 50px;
+}
+
+#botonDos {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#botonDos:hover {
+    scale:1.1;
+    color: #0c0701 !important;
+}
+
+.fotoBeluDos {
+    @include sizes(300px, 400px);
+    border-radius: 20px;
+}
+
+.cajaPerfil {
+    @include sizes(500px, 700px);
+    background-color: #ffffe5;
+border-radius: 50px;
+border: 20px solid #a37c56;
+}
+
+.tituloPerfil {
+    @extend .titulo;
+font-weight: 700;
+padding: 30px;
+
+}
+
+.parrafoPerfil {
+    @extend .parrafo;
+    padding: 40px;
+    text-align: center;
+}
+
+#tallerUno {
+    background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+#tallerDos {
+    @extend #tallerUno;
+    background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+    
+}
+
+.cajaTaller{
+    height: 300px;
+    width: 550px;
+    background-color: #d2f09c;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #708d40;
+    margin: 20px;
+}
+
+.tituloTaller {
+    @extend .titulo;
+    padding-top: 40px;
+}
+
+.parrafoTaller {
+    @extend .parrafo;
+    text-align: center;
+}
+
+
+.fotoTestUno {
+    @include sizes(350px, 350px);
+}
+
+.fotoTestDos {
+    @include sizes(330px, 330px);
+    margin-top: 25px;
+    }
+
+.cajaParrafoTest {
+    @include sizes(600px, 250px);
+border: 10px solid #a37c56;
+margin-top: 50px;
+}
+
+.parrafoTest {
+    @extend .parrafo;
+    text-align: center;
+    padding: 30px;
+}
+
+@media only screen (min-width: 576px) {
+    .nav-link {   
+      font-size: 10px !important;
+      padding: 10px !important;
+      
+    }
+    .logo {
+        width: 5vw;
+        height: 2vh;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+  }

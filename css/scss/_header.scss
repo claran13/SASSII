@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "copper";
-    src: url(../assets/fonts/copper_penny_dtp/Copper\ Penny\ DTP.ttf);
-  }
-  @font-face {
-    font-family: "geo";
-    src: url(../assets/fonts/geo_sans_light/GeosansLight.ttf);
-  }
-
 #header {
     height: 10vh;
 }
@@ -17,7 +8,7 @@ background-color: map-get($colores,"nav");
 
 .nav-link {
     color: map-get($colores,"link") !important;
-    font-family: geo;
+    font-family: "Source Sans Pro", sans-serif;
   font-size: $texto !important;
   font-weight: 600;
   border: 2px solid map-get($colores,"border");
@@ -42,6 +33,6 @@ a:active {
 .logo {
     width: 5vw;
     height: 11vh;
-    margin-right: 900px;
+    margin-right: 850px;
 }
 
