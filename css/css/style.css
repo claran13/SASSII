@@ -3,28 +3,28 @@
 }
 
 nav {
-  background-color: #bacbcd;
+  background-color: #E9E7DA;
 }
 
 .nav-link {
-  color: #a37c56 !important;
+  color: #373F27 !important;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px !important;
   font-weight: 600;
-  border: 2px solid #634b33;
+  border: 2px solid #373F27;
   border-radius: 8px;
   margin-right: 5px;
   padding: 2px;
-  background-color: #ecfeff;
+  background-color: #E9E7DA;
 }
 
 a:hover {
-  scale: 1.1;
+  scale: 1.2em;
   color: #0c0701 !important;
 }
 
 a:active {
-  color: #a37c56 !important;
+  color: #373F27 !important;
 }
 
 #navActive {
@@ -39,7 +39,7 @@ a:active {
 
 #main {
   height: 160vh;
-  background-color: #ecfeff;
+  background-color: #CDA34F;
 }
 
 #fotoBelu {
@@ -52,13 +52,11 @@ a:active {
 #cajaUno {
   width: 700px;
   height: 350px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#d2f09c), color-stop(#a0bd6d), to(#708d40));
-  background-image: linear-gradient(to right, #d2f09c, #a0bd6d, #708d40);
+  background-image: -webkit-gradient(linear, left top, right top, from(#7e8858), color-stop(#636B46), to(#373F27));
+  background-image: linear-gradient(to right, #7e8858, #636B46, #373F27);
   border-style: dotted;
   border-width: 5px;
   border-radius: 20px;
-  border-color: #4a5e2a;
-  margin-top: 140px;
 }
 
 .parrafo, .parrafoTest, .parrafoTaller, .parrafoPerfil {
@@ -66,6 +64,7 @@ a:active {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   padding-right: 10px;
+  color: #E9E7DA;
 }
 
 .titulo, .tituloTaller, .tituloPerfil, .tituloVideo {
@@ -74,23 +73,25 @@ a:active {
   font-weight: 200;
   text-align: center;
   padding: 10px;
+  color: #E9E7DA;
 }
 
 .tituloVideo {
   font-size: 26px;
+  color: #E9E7DA;
 }
 
 .btn {
-  color: #3a4922;
+  color: #373F27;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  border: 2px solid #708d40;
+  border: 2px solid #373F27;
   border-radius: 8px;
   margin-left: 50%;
   margin-top: -30px;
   padding: 5px;
-  background-color: #dbecbc;
+  background-color: #E9E7DA;
 }
 
 .cajaVideo {
@@ -98,12 +99,11 @@ a:active {
 }
 
 .cajaTextoVideo {
-  width: 250px;
+  width: 280px;
   height: 580px;
-  border: 10px solid #ffd77d;
-  background-color: #ffffae;
+  border: 10px solid #373F27;
+  background-color: #373F27;
   border-radius: 40px;
-  margin-right: 8px;
 }
 
 .textoVideo {
@@ -112,6 +112,7 @@ a:active {
   padding: 20px;
   font-size: 14px;
   text-align: center;
+  color: #E9E7DA;
 }
 
 .animate__bounceIn {
@@ -127,7 +128,7 @@ a:active {
 fieldset {
   line-height: 30px;
   text-align: center;
-  background-color: #5d6c6d;
+  background-color: #E9E7DA;
   width: 600px;
   padding: 50px;
 }
@@ -138,12 +139,12 @@ fieldset {
   padding: 10px;
   border: 2px solid black;
   border-radius: 8px;
-  margin-right: 70%;
+  margin-right: 60%;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 #botonDos:hover {
-  scale: 1.1;
+  scale: 1.2em;
   color: #0c0701 !important;
 }
 
@@ -156,9 +157,9 @@ fieldset {
 .cajaPerfil {
   width: 500px;
   height: 700px;
-  background-color: #ffffe5;
+  background-color: #636B46;
   border-radius: 50px;
-  border: 20px solid #a37c56;
+  border: 20px solid #373F27;
 }
 
 .tituloPerfil {
@@ -173,25 +174,27 @@ fieldset {
 
 #tallerUno, #tallerDos {
   background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 
 #tallerDos {
   background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+  height: 280px;
+  width: 280px;
 }
 
 .cajaTaller {
   height: 300px;
-  width: 550px;
-  background-color: #d2f09c;
+  width: 580px;
+  background-color: #636B46;
   border-radius: 20px;
   border-style: double;
-  border-color: #708d40;
-  margin: 20px;
+  border-color: #373F27;
+  margin-bottom: 30px;
 }
 
 .tituloTaller {
@@ -203,31 +206,34 @@ fieldset {
 }
 
 .fotoTestUno {
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
 }
 
 .fotoTestDos {
   width: 330px;
   height: 330px;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .cajaParrafoTest {
   width: 600px;
   height: 250px;
-  border: 10px solid #a37c56;
-  margin-top: 50px;
+  border: 10px solid #373F27;
+  margin-top: 10px;
+  background-color: #636B46;
+  border-radius: 20px;
 }
 
 .parrafoTest {
   text-align: center;
   padding: 30px;
+  color: #E9E7DA;
 }
 
 #footer {
   height: 10vh;
-  background-color: #869294;
+  background-color: #E9E7DA;
 }
 
 .foot {
@@ -237,8 +243,8 @@ fieldset {
 }
 
 .ig {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 * {
@@ -255,21 +261,18 @@ body {
 
 @media only screen and (min-width: 576px) and (max-width: 767px)
 {
-    .nav-link {   
-      font-size: 10px !important;
-      padding: 10px !important;
-      
-    }
-    .logo {
-        width: 5vw;
-        height: 6vh;
-        margin-top: 10px;
-        margin-left: 10px;  
-    }
+  .logo {
+    height: 7vh;
+    margin-right: 250px
+  }
+  .nav-link {
+    padding: 2px;
+    background-color: #E9E7DA;
+  }
     #cajaUno {
-      width:500px;     
-      height:200px;
-      margin-top: -50px;
+      width:400px;     
+      height:230px;
+
   }
   
   .parrafo {
@@ -279,58 +282,45 @@ body {
       
   }
   #fotoBelu {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       float: left;
       padding: 2px;
   }
   .titulo {
-      font-size: 15px;
+      font-size: 18px;
       padding: 5px;
   }
   
   .btn {
-      color: #3a4922;
-      font-family: geo;
     font-size: 0.8rem;
     font-weight: 600;
-    border: 2px solid #708d40;
-      border-radius: 8px;
       margin-left: 50%;
       margin-top: -20px;
       padding: 2px;
-      background-color: #dbecbc;
-  
+
   }
   .video {
-      width: 300px;
-      height: 200px;
-      margin-top: 50px
+      width: 400px;
+      height: 300px;
+
   }
   
 .cajaTextoVideo {
-  width:500px;     
-  height:140px;
-  margin-top: -200px;
-  
+  width:400px;     
+  height:180px;
+  margin-top: -100px;  
 }
-.cajaVideo {
-  margin-top: 20px;
-  
-}
+
 .tituloVideo {
-  font-family: copper;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
 }
 .textoVideo {
-  
-  font-family: geo;
-  font-size: 11px;
-  margin-top: -15px;
-  line-height: 12px;
-  padding: 10px;   
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: -35px; 
 }
 #botonDos {
   background-color: white;
@@ -347,32 +337,26 @@ fieldset {
 .fotoBeluDos {
   width: 200px;
   height: 250px;
-  margin-top: 80px;
   
 }
 
 .cajaPerfil {
   width: 500px;
-  height: 250px;
-  background-color: #ffffe5;
-border-radius: 50px;
-border: 15px solid #a37c56;
-margin-top: -30px;
+  height: 400px;
 }
 
 .tituloPerfil {
 font-weight: 700;
-font-size: 20px;
+font-size: 28px;
 text-align: center;
 padding: 30px;
 }
 
 .parrafoPerfil {
-  line-height: 15px;
-  padding: 20px;
-  font-size: 12px;
+  line-height:20px;
+  padding: 10px;
+  font-size: 14px;
   text-align: center;
-  margin-top: -50px;
 }
 #tallerUno {
   background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
@@ -397,51 +381,44 @@ padding: 30px;
 .cajaTaller{
   height: 190px;
   width: 450px;
-  background-color: #d2f09c;
   border-radius: 20px;
   border-style: double;
-  border-color: #708d40;
   margin-top: -10px;
- 
 }
 
 .tituloTaller {
 font-weight: 700;
-font-size: 20px;
+font-size: 25px;
 text-align: center;
 padding: 20px;
 }
 
 .parrafoTaller {
-  line-height: 15px;
-  padding: 12px;
+  line-height: 14px;
+  padding: 15px;
   text-align: center;
   margin-top: -40px;
 }
 
 .fotoTestUno {
-width: 120px;
-height: 120px;
-margin-top: 60px;
+width: 200px;
+height: 200px;
 }
 
 .fotoTestDos {
-  width: 120px;
-  height: 120px;
-  margin-top: -40px;
+  width: 200px;
+  height: 200px;
+  margin-top: -80px;
   }
 
 .cajaParrafoTest {
 width: 500px;
 height: 130px;
-border: 10px solid #a37c56;
-margin-top: 10px;
-
 }
 
 .parrafoTest {
   line-height: 20px;
-  font-size: 10px;
+  font-size: 13px;
   text-align: center;
   padding: 10px;
 }
@@ -449,207 +426,216 @@ margin-top: 10px;
     
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
-  .nav-link {   
-  font-size: 15px !important;
-  padding: 10px !important;
   
-}
-.logo {
-    width: 5vw;
-    height: 8vh;
-    margin-top: 10px;
-    margin-left: 10px;
-    
-}
-#cajaUno {
-    width:600px;     
-    height:200px;
-    margin-top: 40px;
-}
-
-.parrafo {
-    line-height: 17px;
-    font-size: 12px;
-    padding-right: 10px;
-    
-}
-#fotoBelu {
-    width: 100px;
-    height: 100px;
-    float: left;
+  .logo {
+    height: 7vh;
+    margin-right: 250px
+  }
+  .nav-link {
     padding: 2px;
-}
-.titulo {
-    font-size: 20px;
-    padding: 5px;
-}
+    background-color: #E9E7DA;
+  }
+    #cajaUno {
+      width:600px;     
+      height:230px;
 
-.btn {
-    color: #3a4922;
-    font-family: geo;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border: 2px solid #708d40;
-    border-radius: 8px;
-    margin-left: 50%;
-    margin-top: -55px;
-    padding: 2px;
-    background-color: #dbecbc;
+  }
+  
+  .parrafo {
+      line-height: 15px;
+      font-size: 15px;
+      padding-right: 10px;
+      
+  }
+  #fotoBelu {
+      width: 90px;
+      height: 90px;
+      float: left;
+      padding: 2px;
+  }
+  .titulo {
+      font-size: 22px;
+      padding: 5px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    font-weight: 600;
+      margin-left: 50%;
+      margin-top: -20px;
+      padding: 2px;
 
-}
-.video {
-    width: 450px;
-    height: 300px;
-    margin-top: 30px;
-}
+  }
+  .video {
+      width: 400px;
+      height: 300px;
 
+  }
+  
 .cajaTextoVideo {
-width:600px;     
-height:140px;
-margin-top: -70px;
-
+  width:600px;     
+  height:180px;
+  margin-top: -100px;  
 }
 
 .tituloVideo {
-
-font-size: 20px;
-font-weight: 200;
-text-align: center;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center;
 }
 .textoVideo {
-
-font-size: 15px;
-margin-top: -15px;
-line-height: 12px;
-padding: 10px;
-
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: -35px; 
 }
+#botonDos {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-right: 70%;
+}
+fieldset {
+  width: 500px;
+  height: 600px;
+}
+.fotoBeluDos {
+  width: 250px;
+  height: 330px;
+  
+}
+
 .cajaPerfil {
-width: 700px;
-height: 250px;
-background-color: #ffffe5;
-border-radius: 50px;
-border: 15px solid #a37c56;
+  width: 550px;
+  height: 350px;
+  margin-top: -50px;
+}
+
+.tituloPerfil {
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+padding: 10px;
+}
+
+.parrafoPerfil {
+  line-height:20px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+#tallerUno {
+  background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 70px;
 
 }
-.parrafoPerfil {
-margin-top: -40px;
-font-size: 15px;
-line-height: 20px;
+
+#tallerDos {
+  background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
-.tituloPerfil {
-  font-weight: 700;
-  font-size: 30px;
+
+.cajaTaller{
+  height: 160px;
+  width: 650px;
+  border-radius: 20px;
+  border-style: double;
+  margin-top: -20px;
+
+}
+
+.tituloTaller {
+font-weight: 700;
+font-size: 25px;
+text-align: center;
+padding: 10px;
+}
+
+.parrafoTaller {
+  line-height: 18px;
+  padding: 5px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.fotoTestUno {
+width: 200px;
+height: 200px;
+}
+
+.fotoTestDos {
+  width: 200px;
+  height: 200px;
+  margin-top: -80px;
+  }
+
+.cajaParrafoTest {
+width: 600px;
+height: 130px;
+}
+
+.parrafoTest {
+  line-height: 20px;
+  font-size: 15px;
   text-align: center;
   padding: 10px;
-  }
-  .fotoTestUno {
-    width: 200px;
-    height: 200px;
-    margin-top: 60px;
-    }
-    
-    .fotoTestDos {
-      width: 200px;
-      height: 200px;
-      margin-top: -40px;
-      }
-    
-    .cajaParrafoTest {
-    width: 600px;
-    height: 130px;
-    border: 10px solid #a37c56;
-    margin-top: 10px;
-    
-    }
-    
-    .parrafoTest {
-      line-height: 20px;
-      font-size: 15px;
-      text-align: center;
-      padding: 10px;
-    }
-    #tallerUno {
-      background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
-      height: 150px;
-      width: 150px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 20px;
-      margin-top: 60px;
-    }
-    
-    #tallerDos {
-      background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 20px;
-      margin-bottom: -50px;
-    }
-    
-    .cajaTaller{
-      height: 150px;
-      width: 600px;
-      background-color: #d2f09c;
-      border-radius: 20px;
-      border-style: double;
-      border-color: #708d40;
-     
-    }
-    
-    .tituloTaller {
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-    padding: 20px;
-    }
-    
-    .parrafoTaller {
-      line-height: 15px;
-      padding: 12px;
-      text-align: center;
-      margin-top: -40px;
-    }
+}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px)
 {
   .logo {
-      margin-right: 550px;
+    margin-right: 550px
   }
-  .video {
-    width: 350px;
-    height: 250px;
+ 
+  #cajaUno {
+    width:600px;     
+    height:400px;
+
 }
-  .cajaParrafoTest {
-  width: 400px;
-  height: 320px;
-  border: 10px solid #a37c56;
-  margin-top: 10px;
+fieldset {
+  width: 500px;
+  height: 600px;
+}
+
+
+.cajaTaller{
+  height: 300px;
+  width: 500px;
+
+
+}
+
+.fotoTestUno {
+width: 160px;
+height: 160px;
+}
+
+.fotoTestDos {
+  width: 160px;
+  height: 160px;
+
   }
 
-  .cajaTaller{
-    height: 300px;
-    width: 480px;
-    background-color: #d2f09c;
-    border-radius: 20px;
-    border-style: double;
-    border-color: #708d40;
-   
-  }
-}
-  @media only screen and (min-width: 1200px) and (max-width: 1399px)
-{
-  .logo {
-    margin-right: 750px;
-}
 .cajaParrafoTest {
-  width: 390px;
-  height: 320px;
-  border: 10px solid #a37c56;
-  margin-top: 10px;
-  }
-
+width: 400px;
+height: 200px;
 }
+
+.parrafoTest {
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+}
+

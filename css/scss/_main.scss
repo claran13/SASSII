@@ -1,6 +1,6 @@
 #main {
     height: 160vh;
-    background-color:#ecfeff;
+    background-color:#CDA34F;
 }
 #fotoBelu {
     @include sizes(150px, 150px);
@@ -11,12 +11,10 @@
 
 #cajaUno {
     @include sizes(700px, 350px);
-    background-image: linear-gradient(to right,#d2f09c,#a0bd6d, #708d40); 
+    background-image: linear-gradient(to right,#7e8858,#636B46, #373F27); 
     border-style: dotted;
     border-width: 5px;
     border-radius: $texto+4;
-    border-color: #4a5e2a;
-    margin-top: ($texto+4)*7;
 }
 
 .parrafo {
@@ -24,7 +22,7 @@
     font-family: 'Inter Tight', sans-serif;
     font-size: $texto;
     padding-right: $texto - 6;
-    
+    color: #E9E7DA;
 }
 
 .titulo {
@@ -33,11 +31,13 @@
     font-weight: 200;
     text-align: center;
     padding: $texto - 6;
+    color: #E9E7DA;
 }
 
 .tituloVideo {
     @extend .titulo;
     font-size: $texto+10;
+    color: #E9E7DA;
 }
 
 .btn {
@@ -60,12 +60,10 @@
  } 
 
 .cajaTextoVideo {
-    @include sizes(250px, 580px);
-    border: 10px solid #ffd77d;
-    background-color: #ffffae;
+    @include sizes(280px, 580px);
+    border: 10px solid #373F27;
+    background-color: #373F27;
     border-radius: ($texto+4)*2;
-    margin-right: 8px;
-    ;
 }
 
 .textoVideo {
@@ -75,6 +73,7 @@
     padding: $texto+4;
     font-size: 14px;
     text-align: center;
+    color: #E9E7DA;
 }
 
 .animate__bounceIn {
@@ -89,7 +88,7 @@
 fieldset {
     line-height: 30px;
     text-align: center;
-    background-color:#5d6c6d;
+    background-color:#E9E7DA;
     width: 600px;
     padding: 50px;
 }
@@ -100,12 +99,12 @@ fieldset {
     padding: 10px;
     border: 2px solid black;
     border-radius: 8px;
-    margin-right: 70%;
+    margin-right: 60%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 #botonDos:hover {
-    scale:1.1;
+    scale: 1.2em;
     color: #0c0701 !important;
 }
 
@@ -116,9 +115,9 @@ fieldset {
 
 .cajaPerfil {
     @include sizes(500px, 700px);
-    background-color: #ffffe5;
+    background-color: #636B46;
 border-radius: 50px;
-border: 20px solid #a37c56;
+border: 20px solid #373F27;
 }
 
 .tituloPerfil {
@@ -136,27 +135,28 @@ padding: 30px;
 
 #tallerUno {
     background-image: url("https://www.ayselucus.es/sites/default/files/noticias/fotos/6603545f-44a0-4bb5-a208-4538c50f0230.png");
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px;
+    margin-bottom: 30px;
 }
 
 #tallerDos {
     @extend #tallerUno;
     background-image: url("https://www.joyeriadeluxe.com/fr-1200x800-data/fotos/como-se-hacen-los-relojes-de-arena40.jpg");
-    
+    height: 280px;
+    width: 280px;
 }
 
 .cajaTaller{
     height: 300px;
-    width: 550px;
-    background-color: #d2f09c;
+    width: 580px;
+    background-color: #636B46;
     border-radius: 20px;
     border-style: double;
-    border-color: #708d40;
-    margin: 20px;
+    border-color: #373F27;
+    margin-bottom: 30px;
 }
 
 .tituloTaller {
@@ -171,37 +171,26 @@ padding: 30px;
 
 
 .fotoTestUno {
-    @include sizes(350px, 350px);
+    @include sizes(330px, 330px);
 }
 
 .fotoTestDos {
     @include sizes(330px, 330px);
-    margin-top: 25px;
+    margin-top: 5px;
     }
 
 .cajaParrafoTest {
     @include sizes(600px, 250px);
-border: 10px solid #a37c56;
-margin-top: 50px;
+border: 10px solid #373F27;
+margin-top: 10px;
+background-color: #636B46;
+border-radius: 20px;
 }
 
 .parrafoTest {
     @extend .parrafo;
     text-align: center;
     padding: 30px;
+    color: #E9E7DA;
 }
 
-@media only screen (min-width: 576px) {
-    .nav-link {   
-      font-size: 10px !important;
-      padding: 10px !important;
-      
-    }
-    .logo {
-        width: 5vw;
-        height: 2vh;
-        margin-top: 10px;
-        margin-left: 10px;
-        
-    }
-  }
